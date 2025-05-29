@@ -53,3 +53,18 @@
   font-size: 1.25rem;
   font-weight: 600;
 }  
+.formulario {
+  background-color: #f4fff4; /* Verde muy claro */
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 128, 0, 0.1);
+}
+
+.formulario h2 {
+  color: #2e7d32; /* Verde oscuro */
+}
+
+.formulario .form-control:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 0 0.25rem rgba(76, 175, 80, 0.25);
+}
