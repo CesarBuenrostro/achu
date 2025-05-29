@@ -15,14 +15,24 @@
      planes alimenticios, recetas balanceadas y bienestar integral. Ya sea que busques mejorar tus hábitos, bajar de peso, ganar masa muscular o simplemente sentirte mejor, aquí encontrarás las herramientas y el acompañamiento que necesitas.</p>
     </div>
 
-    <div class="info-cards"> <!-- Aqui van cards con información de nuestros servicios -->
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+   
     </div>
 
     <div class="formulario"> <!-- Aqui va el formulario de contacto -->
+ <form action="/enviar-mensaje" method="POST">
+    <h2>Contacto</h2>
 
+    <label for="nombre">Nombre:</label><br />
+    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo" /><br />
+
+    <label for="email">Correo electrónico:</label><br />
+    <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" /><br />
+
+    <label for="mensaje">Mensaje:</label><br />
+    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea><br />
+
+    <button type="submit">Enviar</button>
+  </form>
     </div>
 
     <div class="footer"> <!-- Aqui van los links e información de contacto  -->
